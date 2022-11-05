@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Fritz!Box DOCSIS 3.0 value analyzer
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/saminitz/Tampermonkey-scripts
 // @version      1.1
 // @description  This script allows you to visually display the current status of the DOCSIS values.
 // @author       QuerSlider
@@ -64,9 +64,10 @@ function getSingleItems(row, direction) {
 }
 
 function checkAndColorValue(element, value, type, category) {
-    var referenceValues = {'down256QAM': { 'powerLevel' : [-8.0, -6.0, -4.0, 13.0, 18.0, 20.0], 'mse': [-30, -32, -33] },
-                           'down64QAM': { 'powerLevel' : [-14.0, -12.0, -10.0, 7.0, 12.0, 14.0], 'mse': [-24, -26, -27] },
-                           'up64QAM': { 'powerLevel' : [35, 37, 41, 47, 51, 53] }};
+    var referenceValues = {'down256QAM': { 'powerLevel': [-8.0, -6.0, -4.0, 13.0, 18.0, 20.0], 'mse': [-30, -32, -33] },
+                           'down64QAM': { 'powerLevel': [-14.0, -12.0, -10.0, 7.0, 12.0, 14.0], 'mse': [-24, -26, -27] },
+                           'up64QAM': { 'powerLevel': [35, 37, 41, 47, 51, 53] },
+                           'up16QAM': { 'powerLevel': [35, 37, 41, 47, 51, 53] }};
 
     switch (category) {
         case 'powerLevel':
