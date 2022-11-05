@@ -9,8 +9,8 @@
 // @match        http://fritz.box/*
 // @icon         https://upload.wikimedia.org/wikipedia/de/6/68/Fritz%21_Logo.svg
 // @grant        none
-// @downloadURL  https://raw.githubusercontent.com/saminitz/Tampermonkey-scripts/master/FritzBox-DOCSIS-3.0-value-analyzer
-// @updateURL    https://raw.githubusercontent.com/saminitz/Tampermonkey-scripts/master/FritzBox-DOCSIS-3.0-value-analyzer
+// @downloadURL  https://raw.githubusercontent.com/saminitz/Tampermonkey-scripts/master/FritzBox-DOCSIS-3.0-value-analyzer.js
+// @updateURL    https://raw.githubusercontent.com/saminitz/Tampermonkey-scripts/master/FritzBox-DOCSIS-3.0-value-analyzer.js
 // ==/UserScript==
 
 window.onload = function() {
