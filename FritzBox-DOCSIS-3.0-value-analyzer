@@ -1,12 +1,14 @@
 // ==UserScript==
 // @name         Fritz!Box DOCSIS 3.0 value analyzer
 // @namespace    http://tampermonkey.net/
-// @version      0.1
-// @description  try to take over the world!
-// @author       You
+// @version      1.0
+// @description  This script allows you to visually display the current status of the DOCSIS values.
+// @author       QuerSlider
 // @match        http://192.168.1.1/*
 // @icon         https://upload.wikimedia.org/wikipedia/de/6/68/Fritz%21_Logo.svg
 // @grant        none
+// @downloadURL  https://raw.githubusercontent.com/saminitz/Tampermonkey-scripts/master/FritzBox-DOCSIS-3.0-value-analyzer
+// @updateURL    https://raw.githubusercontent.com/saminitz/Tampermonkey-scripts/master/FritzBox-DOCSIS-3.0-value-analyzer
 // ==/UserScript==
 
 window.onload = function() {
