@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Fritz!Box DOCSIS 3.0 value analyzer
 // @namespace    https://github.com/saminitz/Tampermonkey-scripts
-// @version      1.1
+// @version      1.2
 // @description  This script allows you to visually display the current status of the DOCSIS values.
 // @author       QuerSlider
 // @match        http://192.168.1.1/*
